@@ -139,6 +139,10 @@ html {
         padding: 0px;
         width:100%;
     }
+
+    .vision{
+        background-image: url(images/vision.jpg);
+    }
 }
 
 @media screen and (min-width: 480px) {
