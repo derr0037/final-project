@@ -1,6 +1,7 @@
 html {
     background-color: #ffe6ac;
     padding:0px;
+    margin:0px;
 }
 
 @media screen and (max-width: 480px) {
@@ -30,8 +31,8 @@ html {
         padding: 28px;
     }
 
-    img {
-        size: inherit;
+    .banner {
+        width: 100%;
     }
 
 }
