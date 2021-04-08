@@ -1,18 +1,20 @@
 html {
     background-color: #ffe6ac;
+    padding:0px;
 }
 
 @media screen and (max-width: 480px) {
 
     html{
         width: 1412px;
+        
     }
 
     .oktest {
 
         padding: 28px;
 
-        color: #222222;
+        background-color: #222222;
 
     }
 
@@ -38,7 +40,7 @@ html {
 
     .oktest {
 
-        color: #222222;
+        background-color: #222222;
 
     }
 
