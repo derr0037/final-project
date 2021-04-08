@@ -1,0 +1,16 @@
+html {
+    background-color: ffe6ac;
+}
+
+@media screen and (max-width: 480px) {
+
+    html {
+    max-width: 1412px;
+    }
+    div .header {
+
+        padding: 28px;
+
+    }
+
+}
