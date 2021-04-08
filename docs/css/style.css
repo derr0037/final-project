@@ -26,7 +26,7 @@ html {
 
     }
 
-    .oktest ul {
+    .oktest nav ul {
         display: grid;
         list-style-type:none;
         width: auto;
@@ -34,7 +34,7 @@ html {
         margin:0px;
     }
 
-    .oktest ul li {
+    .oktest nav ul li {
         text-align: center;
         color: #c78b07;
         padding: 14px;
