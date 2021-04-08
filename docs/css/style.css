@@ -76,13 +76,13 @@ html {
     }
 
     h1 {
-        font-size: 8.5rem;
+        font-size: 9rem;
         padding-bottom: 0px;
         margin-bottom: 40px;
     }
 
     .welcome-content p{
-        font-size: 1.25rem;
+        font-size: 2rem;
     }
 
 
@@ -90,7 +90,52 @@ html {
         padding: 14px;
     }
 
+    .about-us h2 {
+        font-size: 5rem;
+    }
+    .about-us p {
+        font-size: 2rem;
+    }
     .pong {
+        width:100%;
+        margin-bottom: 0px;
+    }
+
+    .services{
+        padding: 14px;
+        background-color: white;
+        display: grid;
+    }
+
+    .services h2{
+        font-size: 5rem;
+        padding-bottom: 0px;
+    }
+
+    .block  {
+        display: grid;
+    }
+
+    .block div h3{
+        font-size: 3.5rem;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .block div p {
+        font-size: 2rem;
+    }
+
+    .block div{
+        background-color: #ffe6ac;
+        margin: 0px;
+        padding: 20px;
+        margin-bottom: 14px;
+    }
+
+    .block img{
+        margin: 0px;
+        padding: 0px;
         width:100%;
     }
 }
