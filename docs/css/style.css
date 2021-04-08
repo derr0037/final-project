@@ -23,6 +23,10 @@ html {
         color: #c78b07;
     }
 
+    img {
+        width:fit-content;
+    }
+
 }
 
 @media screen and (min-width: 480px) {
