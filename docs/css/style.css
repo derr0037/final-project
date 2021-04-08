@@ -7,6 +7,7 @@ html {
     background-color: #ffe6ac;
     padding:0px;
     margin:0px;
+    font-family: Arial;
 }
 
 @media screen and (max-width: 480px) {
@@ -38,15 +39,14 @@ html {
         color: #c78b07;
         padding: 14px;
     }
-
-    .banner {
-        width: 100%;
-    }
-
     .logo-header {
         background-color:  #c78b07;
         padding-top: 18px;
         padding-bottom: 18px;
+    }
+
+    .logo {
+        width:199px;
     }
 
     #current {
@@ -54,10 +54,45 @@ html {
         color: #222222;
     }
 
-    .welcome {
-
+    .banner {
+        width: 100%;
     }
 
+
+    .welcome {
+        position: relative;
+    }
+
+    .welcome .welcome-content{
+        position: absolute;
+        margin-top: 120px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-left: 14px;
+        width:fit-content;
+        color: white;
+        padding-left: 14px;
+        padding-right: 80px;
+        
+    }
+
+    h1 {
+        font-size: 8.5rem;
+        padding-bottom: 0px;
+        margin-bottom: 40px;
+    }
+
+    .welcome-content p{
+        font-size: 1.25rem;
+    }
+
+
+    .about-us{
+        padding: 14px;
+    }
+
+    .pong {
+        width:100%;
+    }
 }
 
 @media screen and (min-width: 480px) {
