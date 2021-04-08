@@ -1,3 +1,8 @@
+html,
+body {
+    margin: 0;
+}
+
 html {
     background-color: #ffe6ac;
     padding:0px;
@@ -12,22 +17,26 @@ html {
 
     .oktest {
 
-        padding: 28px;
+        padding: 14px;
 
         background-color: #222222;
+
+        display: grid;
 
     }
 
     .oktest ul {
-        display: block;
+        display: grid;
         list-style-type:none;
         width: auto;
+        padding:0px;
+        margin:0px;
     }
 
     .oktest ul li {
         text-align: center;
         color: #c78b07;
-        padding: 28px;
+        padding: 14px;
     }
 
     .banner {
@@ -36,11 +45,17 @@ html {
 
     .logo-header {
         background-color:  #c78b07;
+        padding-top: 18px;
+        padding-bottom: 18px;
     }
 
-    .current {
+    #current {
         background-color:  #c78b07;
         color: #222222;
+    }
+
+    .welcome {
+
     }
 
 }
