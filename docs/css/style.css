@@ -35,4 +35,10 @@ html {
         max-width: 2880px;
     } 
 
+    div .header {
+
+        background-color: #222222;
+
+    }
+
 }
