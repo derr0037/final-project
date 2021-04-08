@@ -4,7 +4,7 @@ html {
 
 @media screen and (max-width: 480px) {
 
-    div .header {
+    div .oktest {
 
         padding: 28px;
 
@@ -12,13 +12,13 @@ html {
 
     }
 
-    .header ul {
+    .oktest ul {
         display: block;
         list-style-type:none;
         width: auto;
     }
 
-    .header ul li {
+    .oktest ul li {
         text-align: center;
         color: #c78b07;
     }
@@ -27,7 +27,7 @@ html {
 
 @media screen and (min-width: 480px) {
 
-    div .header {
+    div .oktest {
 
         background-color: #222222;
 
