@@ -1,5 +1,5 @@
 html {
-    background-color: ffe6ac;
+    background-color: #ffe6ac;
 }
 
 @media screen and (max-width: 480px) {
@@ -11,6 +11,19 @@ html {
 
         padding: 28px;
 
+        background-color: #222222;
+
+    }
+
+    .header ul {
+        display: block;
+        list-style-type:none;
+        width: auto;
+    }
+
+    .header ul li {
+        text-align: center;
+        color: #c78b07;
     }
 
 }
