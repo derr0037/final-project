@@ -7,7 +7,7 @@ html {
     background-color: #ffe6ac;
     padding:0px;
     margin:0px;
-    font-family: Arial;
+    font-family: 'Arial';
 }
 
 html{
@@ -36,6 +36,7 @@ html{
     text-align: center;
     color: #c78b07;
     padding: 14px;
+    font-size: larger;
 }
 
 .logo-header {
@@ -45,7 +46,7 @@ html{
 }
 
 .logo {
-    width:199px;
+    width:100px;
 }
 
 #current {
@@ -64,19 +65,26 @@ html{
 
 .welcome .welcome-content{
     position: absolute;
-    margin-top: 120px;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
     padding-left: 14px;
     width:fit-content;
     color: white;
     padding-left: 14px;
     padding-right: 80px;
-    
 }
 
 h1 {
     padding-bottom: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    font-size: 4.5rem;
+    line-height: 100px;
+}
+
+.welcome-content p{
+    margin-bottom: 14px;
+    line-height: 20px;
+    font-size:0.9rem;
 }
 
 .about-us{
@@ -88,6 +96,18 @@ h1 {
     margin-bottom: 0px;
 }
 
+.about-us h2{
+    font-size: 50px;
+    font-weight:700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.about-us p {
+    line-height: 20px;
+    font-size:0.94rem;
+}
+
 .services{
     padding: 14px;
     background-color: white;
@@ -95,8 +115,10 @@ h1 {
 }
 
 .services h2{
-    font-size: 5rem;
-    padding-bottom: 0px;
+    font-size: 50px;
+    margin:0px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .block  {
@@ -104,13 +126,14 @@ h1 {
 }
 
 .block div h3{
-    font-size: 3.5rem;
+    font-size: 35px;
     padding: 0px;
     margin: 0px;
 }
 
 .block div p {
-    font-size: 2rem;
+    line-height: 20px;
+    font-size:0.94rem;
 }
 
 .block div{
