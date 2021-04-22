@@ -8,9 +8,6 @@ html {
     padding:0px;
     margin:0px;
     font-family: 'Arial';
-}
-
-html{
     width: 721px;
 }
 
@@ -112,6 +109,7 @@ h1 {
     padding: 14px;
     background-color: white;
     display: grid;
+    margin-bottom: 0px;
 }
 
 .services h2{
@@ -149,8 +147,42 @@ h1 {
     width:100%;
 }
 
-.vision{
-    background-image: url(images/vision.jpg);
+.vision-image {
+    width:721px;
+    margin: 0px;
+}
+
+.vision {
+    position: relative;
+}
+
+.vision .vision-content {
+    position: absolute;
+    padding: 14px;
+    margin: 0px;
+    color: white;
+}
+
+.vision-content h3{
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.vision-content p{
+    line-height: 20px;
+    font-size:0.94rem;
+}
+
+.team {
+    padding: 14px;
+    background-color: white;
+    display: grid;
+    margin-bottom: 0px;
+}
+
+.team img {
+    width: 100%;
 }
 
 @media screen and (min-width: 480px) {
