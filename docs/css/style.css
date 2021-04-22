@@ -10,139 +10,136 @@ html {
     font-family: Arial;
 }
 
-@media screen and (max-width: 480px) {
+html{
+    width: 721px;
+}
 
-    html{
-        width: 1412px;
-    }
+.oktest {
 
-    .oktest {
+    padding: 14px;
 
-        padding: 14px;
+    background-color: #222222;
 
-        background-color: #222222;
+    display: grid;
 
-        display: grid;
+}
 
-    }
+.oktest nav ul {
+    display: grid;
+    list-style-type:none;
+    width: auto;
+    padding:0px;
+    margin:0px;
+}
 
-    .oktest nav ul {
-        display: grid;
-        list-style-type:none;
-        width: auto;
-        padding:0px;
-        margin:0px;
-    }
+.oktest nav ul li {
+    text-align: center;
+    color: #c78b07;
+    padding: 14px;
+    font-size: 2.5rem;
+}
+.logo-header {
+    background-color:  #c78b07;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
 
-    .oktest nav ul li {
-        text-align: center;
-        color: #c78b07;
-        padding: 14px;
-        font-size: 2.5rem;
-    }
-    .logo-header {
-        background-color:  #c78b07;
-        padding-top: 18px;
-        padding-bottom: 18px;
-    }
+.logo {
+    width:199px;
+}
 
-    .logo {
-        width:199px;
-    }
+#current {
+    background-color:  #c78b07;
+    color: #222222;
+}
 
-    #current {
-        background-color:  #c78b07;
-        color: #222222;
-    }
-
-    .banner {
-        width: 100%;
-    }
+.banner {
+    width: 100%;
+}
 
 
-    .welcome {
-        position: relative;
-    }
+.welcome {
+    position: relative;
+}
 
-    .welcome .welcome-content{
-        position: absolute;
-        margin-top: 120px;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding-left: 14px;
-        width:fit-content;
-        color: white;
-        padding-left: 14px;
-        padding-right: 80px;
-        
-    }
+.welcome .welcome-content{
+    position: absolute;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 14px;
+    width:fit-content;
+    color: white;
+    padding-left: 14px;
+    padding-right: 80px;
+    
+}
 
-    h1 {
-        font-size: 9rem;
-        padding-bottom: 0px;
-        margin-bottom: 40px;
-    }
+h1 {
+    font-size: 9rem;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
 
-    .welcome-content p{
-        font-size: 2rem;
-    }
+.welcome-content p{
+    font-size: 2rem;
+}
 
 
-    .about-us{
-        padding: 14px;
-    }
+.about-us{
+    padding: 14px;
+}
 
-    .about-us h2 {
-        font-size: 5rem;
-    }
-    .about-us p {
-        font-size: 2rem;
-    }
-    .pong {
-        width:100%;
-        margin-bottom: 0px;
-    }
+.about-us h2 {
+    font-size: 5rem;
+}
+.about-us p {
+    font-size: 2rem;
+}
+.pong {
+    width:100%;
+    margin-bottom: 0px;
+}
 
-    .services{
-        padding: 14px;
-        background-color: white;
-        display: grid;
-    }
+.services{
+    padding: 14px;
+    background-color: white;
+    display: grid;
+}
 
-    .services h2{
-        font-size: 5rem;
-        padding-bottom: 0px;
-    }
+.services h2{
+    font-size: 5rem;
+    padding-bottom: 0px;
+}
 
-    .block  {
-        display: grid;
-    }
+.block  {
+    display: grid;
+}
 
-    .block div h3{
-        font-size: 3.5rem;
-        padding: 0px;
-        margin: 0px;
-    }
+.block div h3{
+    font-size: 3.5rem;
+    padding: 0px;
+    margin: 0px;
+}
 
-    .block div p {
-        font-size: 2rem;
-    }
+.block div p {
+    font-size: 2rem;
+}
 
-    .block div{
-        background-color: #ffe6ac;
-        margin: 0px;
-        padding: 20px;
-        margin-bottom: 14px;
-    }
+.block div{
+    background-color: #ffe6ac;
+    margin: 0px;
+    padding: 20px;
+    margin-bottom: 14px;
+}
 
-    .block img{
-        margin: 0px;
-        padding: 0px;
-        width:100%;
-    }
+.block img{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+}
 
-    .vision{
-        background-image: url(images/vision.jpg);
-    }
+.vision{
+    background-image: url(images/vision.jpg);
 }
 
 @media screen and (min-width: 480px) {
