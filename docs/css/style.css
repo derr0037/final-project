@@ -36,8 +36,8 @@ html{
     text-align: center;
     color: #c78b07;
     padding: 14px;
-    font-size: 2.5rem;
 }
+
 .logo-header {
     background-color:  #c78b07;
     padding-top: 18px;
@@ -75,26 +75,14 @@ html{
 }
 
 h1 {
-    font-size: 9rem;
     padding-bottom: 0px;
     margin-bottom: 40px;
 }
-
-.welcome-content p{
-    font-size: 2rem;
-}
-
 
 .about-us{
     padding: 14px;
 }
 
-.about-us h2 {
-    font-size: 5rem;
-}
-.about-us p {
-    font-size: 2rem;
-}
 .pong {
     width:100%;
     margin-bottom: 0px;
